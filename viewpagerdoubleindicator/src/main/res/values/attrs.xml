@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--指示器样式-->
+    <declare-styleable name="ViewPagerDoubleIndicator">
+        <attr name="vpdiIndicatorColor" format="color" />
+        <attr name="vpdiBaseLineColor" format="color" />
+        <attr name="vpdiIndicatorHeight" format="dimension" />
+        <attr name="vpdiUnderlineColor" format="color" />
+        <attr name="vpdiUnderlineHeight" format="dimension" />
+        <attr name="vpdiDividerColor" format="color" />
+        <attr name="vpdiDividerWidth" format="dimension" />
+        <attr name="vpdiDividerPadding" format="dimension" />
+        <attr name="vpdiScrollOffset" format="dimension" />
+        <attr name="vpdiShouldExpand" format="boolean" />
+        <attr name="vpdiPaddingMiddle" format="boolean" />
+        <attr name="vpdiHorizontalSplit" format="boolean" />
+        <attr name="vpdiTabPaddingLeftRight" format="dimension" />
+        <attr name="vpdiTabBackground" format="reference" />
+
+        <attr name="vpdiTabTextSize" format="dimension" />
+        <attr name="vpdiTabTextColor" format="reference" />
+        <attr name="vpdiTabTextColorUnSelected" format="reference" />
+        <attr name="vpdiTabTextStyle" format="reference">
+            <flag name="normal" value="0x0" />
+            <flag name="bold" value="0x1" />
+            <flag name="italic" value="0x2" />
+        </attr>
+        <attr name="vpdiTabTextAllCaps" format="boolean" />
+        <attr name="vpdiTabTextAlpha" format="integer" />
+        <attr name="vpdiTabTextFontFamily" format="string" />
+    </declare-styleable>
+
+</resources>
